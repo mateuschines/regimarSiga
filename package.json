@@ -1,10 +1,10 @@
 {
-  "name": "grande-buscas",
+  "name": "siga",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev:server": "node --env-file=.env index.js"
+    "dev": "node --env-file=.env index.js"
   },
   "type": "module",
   "keywords": [],
@@ -14,7 +14,9 @@
   "dependencies": {
     "express": "^4.21.0",
     "express-handlebars": "^8.0.1",
+    "os": "^0.1.2",
     "puppeteer": "^23.3.0",
+    "puppeteer-core": "^23.4.1",
     "ws": "^8.18.0"
   }
 }

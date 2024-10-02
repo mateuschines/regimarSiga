@@ -3,7 +3,7 @@ import path from "path";
 
 export async function AmazonScraper(nomeProduto){
     const browser = await puppeteer.launch({
-        headless: true,
+        headless: false,
         defaultViewport: null,
         args: ["--no-sandbox", "--window-size=1920,1080"]
     });
